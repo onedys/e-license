@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'User Licenses - e-License')
 @section('page-title', 'User Licenses')

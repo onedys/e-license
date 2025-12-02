@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'Warranty Claim Details - e-License')
 @section('page-title', 'Warranty Claim Details')

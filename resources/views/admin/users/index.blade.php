@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'User Management - e-License')
 @section('page-title', 'User Management')
@@ -94,6 +94,7 @@
 <div class="card mb-4">
     <div class="card-body">
         <form method="GET" class="row g-3">
+    @csrf
             <div class="col-md-6">
                 <label class="form-label">Search</label>
                 <input type="text" name="search" class="form-control" 

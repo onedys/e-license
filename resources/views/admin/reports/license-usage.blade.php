@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'License Usage Report - e-License')
 @section('page-title', 'License Usage Report')
@@ -25,6 +25,7 @@
             </div>
             <div class="card-body">
                 <form method="GET" class="row g-3" id="reportFilter">
+    @csrf
                     <div class="col-md-3">
                         <label class="form-label">Date From</label>
                         <input type="date" name="start_date" class="form-control" 

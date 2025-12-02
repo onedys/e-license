@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'Order Management - e-License')
 @section('page-title', 'Order Management')
@@ -91,6 +91,7 @@
 <div class="card mb-4">
     <div class="card-body">
         <form method="GET" class="row g-3">
+    @csrf
             <div class="col-md-3">
                 <label class="form-label">Status</label>
                 <select name="status" class="form-select">

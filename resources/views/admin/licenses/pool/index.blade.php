@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+﻿@extends('layouts.admin')
 
 @section('title', 'License Pool Management - e-License')
 @section('page-title', 'License Pool Management')
@@ -91,6 +91,7 @@
 <div class="card mb-4">
     <div class="card-body">
         <form method="GET" class="row g-3">
+    @csrf
             <div class="col-md-4">
                 <label class="form-label">Product</label>
                 <select name="product_id" class="form-select">

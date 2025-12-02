@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', $product->name . ' - e-License')
 
@@ -191,7 +191,7 @@
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Buka dashboard → Pilih lisensi → Input Installation ID → Dapat Confirmation ID.
+                                Buka dashboard â†’ Pilih lisensi â†’ Input Installation ID â†’ Dapat Confirmation ID.
                             </div>
                         </div>
                     </div>
